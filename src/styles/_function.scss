@@ -1,0 +1,19 @@
+@use 'sass:math';
+
+// Convert px to em
+@function pxtoem($target, $context){
+  @return ($target/$context)+0em;
+}
+
+// Convert em to px
+@function emtopx($target, $context){
+  @return ($target*$context)+0px;
+}
+
+// Convert px to rem
+
+@function toRem($pxValue) {
+    @return math.div($pxValue, 16px) * 1rem; 
+}
+
+

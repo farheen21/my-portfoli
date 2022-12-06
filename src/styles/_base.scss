@@ -1,0 +1,28 @@
+
+*,
+ ::after,
+ ::before {
+     box-sizing: border-box;
+ }
+ 
+html {
+     font-size: $font-size-base;
+     line-height: 24px;
+     font-weight: $font-weight-regular;
+     background: $bg-light;
+     -webkit-tap-highlight-color: transparent;
+     box-sizing: border-box;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   font-family:  $default-font;
+   background: $bg-light;
+   font-size: $font-size-base;
+   line-height: 24px;
+   font-weight: $font-weight-regular;
+ }

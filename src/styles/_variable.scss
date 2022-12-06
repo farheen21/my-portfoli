@@ -1,0 +1,22 @@
+ 
+ @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+ 
+ 
+$bg-dark : #1a1a1a; 
+$bg-light : #fffefd;
+
+// Font Sizes
+$font-size-base : 16px;
+
+// Font Weight 
+$font-weight-regular: 400;
+$default-font : 'Playfair Display', sans-serif;
+
+.App {
+   background-color: $bg-dark;
+   color: $bg-light;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
