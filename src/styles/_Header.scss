@@ -2,7 +2,13 @@
 .Header {
     position: fixed;
     top: 0;
-    background-color: $bg-dark;
-    color: $bg-light;
+    // background-color: $bg-dark;
     height: toRem(100px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    nav {
+        color : $bg-light;
+    }
 }

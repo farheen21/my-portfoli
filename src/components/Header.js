@@ -6,10 +6,19 @@ export default function Header() {
     <header className='Header'>
       <nav>
         <Link className='logo' to="/">
-           <img src={logo} alt="Logo"/>
+           <img src={logo} class="w-24" alt="Logo"/>
         </Link>
-        <NavLink>
-            
+        <NavLink to="/about">
+           About
+        </NavLink>
+        <NavLink to="/job">
+           Experience
+        </NavLink>
+        <NavLink to="/projects">
+          Work
+        </NavLink>
+        <NavLink to="/projects">
+          Contact
         </NavLink>
       </nav>
     </header>
